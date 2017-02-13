@@ -1,0 +1,39 @@
+body {
+  padding: 0;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+div[dropzone] {
+    border: 2px dashed #bbb;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+    font: 20pt bold;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+.dropbox {
+    height: 120px;
+    border: 1px dashed;
+    border-radius: 8px;
+}
+.dropbox span {
+    margin-top: 0.9em;
+    display: block;
+}
+
+#btnSubmit {
+  background-color: #000000;
+  color: white;
+  border-radius: 6px;
+  height: 30px;
+  width: 100%;
+}
+
+#selPetList {
+  width: 100%;
+}
